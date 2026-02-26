@@ -1,2 +1,2 @@
-const f = require("./data.yaml");
+const f = require("./data.json");
 module.exports = f;
