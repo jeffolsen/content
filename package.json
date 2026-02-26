@@ -1,0 +1,9 @@
+{
+  "name": "content",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jeffolsen/content.git",
+  "author": "jeffolsen <olsenjeffn@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
