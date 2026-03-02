@@ -1,6 +1,7 @@
 interface ContentImage {
   url: string;
-  alt: string;
+  alt?: string;
+  type?: "LANDSCAPE" | "PORTRAIT" | "ICON" | "OTHER";
 }
 
 interface ContentData {

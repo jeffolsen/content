@@ -2,131 +2,163 @@
   "images": [
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/12019-pittsburgh-84389_1920.jpg",
-      "alt": "Pittsburgh skyline at sunset"
+      "alt": "Pittsburgh skyline at sunset",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/132364-comicon-246591_1920.jpg",
-      "alt": "Comic Con attendees in costume"
+      "alt": "Comic Con attendees in costume",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/5688709-merry-christmas-2425121_1920.jpg",
-      "alt": "Christmas tree with presents"
+      "alt": "Christmas tree with presents",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/alamchable-balloons-7658766_1920.jpg",
-      "alt": "Colorful balloons in the sky"
+      "alt": "Colorful balloons in the sky",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/bedtimeoddities-sci-fi-9987103_1920.jpg",
-      "alt": "Sci-fi themed bedroom"
+      "alt": "Sci-fi themed bedroom",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/betidraws-little-red-riding-hood-9724469_1920.jpg",
-      "alt": "Little Red Riding Hood illustration"
+      "alt": "Little Red Riding Hood illustration",
+      "type": "PORTRAIT"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/charlemagne-dresden-179469_1920.jpg",
-      "alt": "Dresden cityscape"
+      "alt": "Dresden cityscape",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/daledbet-urban-4785618_1920.jpg",
-      "alt": "Urban street scene"
+      "alt": "Urban street scene",
+      "type": "PORTRAIT"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/darelle-patrick-5018043_1920.jpg",
-      "alt": "City skyline with dramatic clouds"
+      "alt": "City skyline with dramatic clouds",
+      "type": "PORTRAIT"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/dimitrisvetsikas1969-jellyfish-4629077_1920.jpg",
-      "alt": "Jellyfish swimming in the ocean"
+      "alt": "Jellyfish swimming in the ocean",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/franc-comtois-chapel-3209954_1920.jpg",
-      "alt": "Chapel interior with stained glass"
+      "alt": "Chapel interior with stained glass",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-229.png",
-      "alt": "Logo Ipsum design 229"
+      "alt": "Logo Ipsum design 229",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-241.png",
-      "alt": "Logo Ipsum design 241"
+      "alt": "Logo Ipsum design 241",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-242.png",
-      "alt": "Logo Ipsum design 242"
+      "alt": "Logo Ipsum design 242",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-300.png",
-      "alt": "Logo Ipsum design 300"
+      "alt": "Logo Ipsum design 300",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-331.png",
-      "alt": "Logo Ipsum design 331"
+      "alt": "Logo Ipsum design 331",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-338.png",
-      "alt": "Logo Ipsum design 338"
+      "alt": "Logo Ipsum design 338",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-339.png",
-      "alt": "Logo Ipsum design 339"
+      "alt": "Logo Ipsum design 339",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-348.png",
-      "alt": "Logo Ipsum design 348"
+      "alt": "Logo Ipsum design 348",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-349.png",
-      "alt": "Logo Ipsum design 349"
+      "alt": "Logo Ipsum design 349",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-351.png",
-      "alt": "Logo Ipsum design 351"
+      "alt": "Logo Ipsum design 351",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-366.png",
-      "alt": "Logo Ipsum design 366"
+      "alt": "Logo Ipsum design 366",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-410.png",
-      "alt": "Logo Ipsum design 410"
+      "alt": "Logo Ipsum design 410",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-416.png",
-      "alt": "Logo Ipsum design 416"
+      "alt": "Logo Ipsum design 416",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-421.png",
-      "alt": "Logo Ipsum design 421"
+      "alt": "Logo Ipsum design 421",
+      "type": "ICON"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/pexels-outdoor-dining-1846137_1920.jpg",
-      "alt": "Outdoor dining setup"
+      "alt": "Outdoor dining setup",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/photowill-car-3162755_1920.jpg",
-      "alt": "Car parked on the street"
+      "alt": "Car parked on the street",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/pink_angel-planet-10059906_1920.png",
-      "alt": "Planet with pink angel wings"
+      "alt": "Planet with pink angel wings",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/pittsburghbeautiful-pittsburgh-4790397_1920.jpg",
-      "alt": "Pittsburgh cityscape with river"
+      "alt": "Pittsburgh cityscape with river",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/samueles-gorilla-1049539_1920.jpg",
-      "alt": "Gorilla in a forest setting"
+      "alt": "Gorilla in a forest setting",
+      "type": "LANDSCAPE"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/sunriseforever-cyborg-7588936_1920.jpg",
-      "alt": "Cyborg with sunrise background"
+      "alt": "Cyborg with sunrise background",
+      "type": "PORTRAIT"
     },
     {
       "url": "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/zuper_dragon-teddy-bear-7558723_1920.jpg",
-      "alt": "Teddy bear with dragon wings"
+      "alt": "Teddy bear with dragon wings",
+      "type": "LANDSCAPE"
     }
   ]
 }
