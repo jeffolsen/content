@@ -10,7 +10,7 @@ interface ContentTag {
 
 interface ContentComponentType {
   name: string;
-  itemBinding: "FILTERED_BY_TAG" | "MANUALLY_CURATED" | "BY_URL";
+  itemBinding: "FILTERED_BY_TAG" | "MANUAL_CURATED" | "BY_URL";
 }
 
 interface UpsertableContentData {
