@@ -14,10 +14,18 @@ interface ContentComponentType {
   propertySchema?: Record<string, unknown>; // Optional schema for additional properties
 }
 
+interface ContentItem {
+  name: string;
+  description?: string;
+  tags: string[];
+  images: string[];
+}
+
 interface UpsertableContentData {
   images: ContentImage[];
   tags: ContentTag[];
   componentTypes: ContentComponentType[];
+  items: ContentItem[]; // Assuming ContentItem is defined elsewhere
 }
 
 interface DeletableContentData {
