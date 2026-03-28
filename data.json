@@ -2,7 +2,7 @@
   "deletes": {
     "images": [],
     "tags": [],
-    "componentTypes": []
+    "componentTypes": ["Grid"]
   },
   "upserts": {
     "tags": [
@@ -207,8 +207,38 @@
     ],
     "componentTypes": [
       {
-        "name": "Grid",
-        "itemBinding": "FILTERED_BY_TAG"
+        "name": "TeaserGrid",
+        "subjectType": "COLLECTION",
+        "propertySchema": {
+          "contentFilter": {
+            "type": "array",
+            "description": "List of tags to include in the grid",
+            "tagNames": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      {
+        "name": "HeroCarousel",
+        "subjectType": "COLLECTION",
+        "propertySchema": {
+          "slideItems": {
+            "type": "array",
+            "description": "List of item IDs to display in the carousel",
+            "itemIds": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      {
+        "name": "Detail",
+        "subjectType": "SINGLE"
+      },
+      {
+        "name": "RelatedContent",
+        "subjectType": "SINGLE"
       }
     ]
   }

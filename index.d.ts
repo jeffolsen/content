@@ -10,7 +10,8 @@ interface ContentTag {
 
 interface ContentComponentType {
   name: string;
-  itemBinding: "FILTERED_BY_TAG" | "MANUAL_CURATED" | "BY_URL";
+  subjectType: "SINGLE" | "COLLECTION";
+  propertySchema?: Record<string, unknown>; // Optional schema for additional properties
 }
 
 interface UpsertableContentData {
