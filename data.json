@@ -210,10 +210,10 @@
         "name": "TeaserGrid",
         "subjectType": "COLLECTION",
         "propertySchema": {
-          "contentFilter": {
+          "tagAllowList": {
             "type": "array",
             "description": "List of tags to include in the grid",
-            "tagNames": {
+            "items": {
               "type": "string"
             }
           }
@@ -223,10 +223,10 @@
         "name": "HeroCarousel",
         "subjectType": "COLLECTION",
         "propertySchema": {
-          "slideItems": {
+          "itemAllowList": {
             "type": "array",
             "description": "List of item IDs to display in the carousel",
-            "itemIds": {
+            "items": {
               "type": "number"
             }
           }
