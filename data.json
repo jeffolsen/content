@@ -215,7 +215,9 @@
             "description": "List of tags to include in the grid",
             "items": {
               "type": "string"
-            }
+            },
+            "minItems": 1,
+            "uniqueItems": true
           }
         }
       },
@@ -228,7 +230,10 @@
             "description": "List of item IDs to display in the carousel",
             "items": {
               "type": "number"
-            }
+            },
+            "minItems": 1,
+            "maxItems": 5,
+            "uniqueItems": true
           }
         }
       },
