@@ -210,9 +210,16 @@
         "name": "TeaserGrid",
         "subjectType": "COLLECTION",
         "propertySchema": {
+          "isPrimaryContent": {
+            "type": "boolean",
+            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "title": "Is Primary Content",
+            "default": false
+          },
           "tagAllowList": {
             "type": "array",
             "description": "List of tags to include in the grid",
+            "title": "Allowed Tags",
             "items": {
               "type": "string"
             },
@@ -225,25 +232,56 @@
         "name": "HeroCarousel",
         "subjectType": "COLLECTION",
         "propertySchema": {
+          "isPrimaryContent": {
+            "type": "boolean",
+            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "title": "Is Primary Content",
+            "default": false
+          },
           "itemAllowList": {
             "type": "array",
             "description": "List of item IDs to display in the carousel",
+            "title": "Allowed Items",
             "items": {
               "type": "number"
             },
             "minItems": 1,
             "maxItems": 5,
             "uniqueItems": true
+          },
+          "variant": {
+            "type": "enum",
+            "description": "Visual variant of the carousel",
+            "title": "Carousel Variant",
+            "enum": ["alpha", "beta", "gamma"],
+            "enumNames": ["Variant A", "Variant B", "Variant C"],
+            "default": "alpha"
           }
         }
       },
       {
         "name": "Detail",
-        "subjectType": "SINGLE"
+        "subjectType": "SINGLE",
+        "propertySchema": {
+          "isPrimaryContent": {
+            "type": "boolean",
+            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "title": "Is Primary Content",
+            "default": false
+          }
+        }
       },
       {
         "name": "RelatedContent",
-        "subjectType": "SINGLE"
+        "subjectType": "SINGLE",
+        "propertySchema": {
+          "isPrimaryContent": {
+            "type": "boolean",
+            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "title": "Is Primary Content",
+            "default": false
+          }
+        }
       }
     ],
     "items": [
