@@ -225,6 +225,25 @@
             },
             "minItems": 1,
             "uniqueItems": true
+          },
+          "referenceFeed": {
+            "type": "array",
+            "description": "Optional Single SubjectType feed ID to construct page links when combined with items filterd by tagAllowList. If not provided, items in the grid will not link to pages automatically.",
+            "title": "Reference Feed",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 0,
+            "maxItems": 1,
+            "uniqueItems": true
+          },
+          "variant": {
+            "type": "enum",
+            "description": "Visual variant of the grid",
+            "title": "Grid Variant",
+            "enum": ["alpha", "beta", "gamma"],
+            "enumNames": ["Variant A", "Variant B", "Variant C"],
+            "default": "alpha"
           }
         }
       },
@@ -247,6 +266,17 @@
             },
             "minItems": 1,
             "maxItems": 5,
+            "uniqueItems": true
+          },
+          "referenceFeed": {
+            "type": "array",
+            "description": "Optional Single SubjectType feed ID to construct page links when combined with item allow list. If not provided, items in the carousel will not link to pages automatically.",
+            "title": "Reference Feed",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 0,
+            "maxItems": 1,
             "uniqueItems": true
           },
           "variant": {
