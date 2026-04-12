@@ -212,13 +212,13 @@
         "propertySchema": {
           "isPrimaryContent": {
             "type": "boolean",
-            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "description": "Determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
             "title": "Is Primary Content",
             "default": false
           },
           "tagAllowList": {
             "type": "array",
-            "description": "List of tags to include in the grid",
+            "description": "List of tags used to filter items for display in the component. Items must have at least one of the specified tags to be included.",
             "title": "Allowed Tags",
             "items": {
               "type": "string"
@@ -228,7 +228,7 @@
           },
           "referenceFeed": {
             "type": "array",
-            "description": "Optional Single SubjectType feed ID to construct page links when combined with items filterd by tagAllowList. If not provided, items in the grid will not link to pages automatically.",
+            "description": "Optional Single SubjectType feed ID. Provides the feed's dynamic path to construct page links when combined with items ids. If not provided, items will not link to pages automatically.",
             "title": "Reference Feed",
             "items": {
               "type": "number"
@@ -239,7 +239,6 @@
           },
           "variant": {
             "type": "enum",
-            "description": "Visual variant of the grid",
             "title": "Grid Variant",
             "enum": ["alpha", "beta", "gamma"],
             "enumNames": ["Variant A", "Variant B", "Variant C"],
@@ -253,13 +252,13 @@
         "propertySchema": {
           "isPrimaryContent": {
             "type": "boolean",
-            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "description": "Determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
             "title": "Is Primary Content",
             "default": false
           },
           "itemAllowList": {
             "type": "array",
-            "description": "List of item IDs to display in the carousel",
+            "description": "List of item IDs to display in the component. Items will be displayed in the order specified in this list.",
             "title": "Allowed Items",
             "items": {
               "type": "number"
@@ -270,7 +269,7 @@
           },
           "referenceFeed": {
             "type": "array",
-            "description": "Optional Single SubjectType feed ID to construct page links when combined with item allow list. If not provided, items in the carousel will not link to pages automatically.",
+            "description": "Optional Single SubjectType feed ID. Provides the feed's dynamic path to construct page links when combined with items ids. If not provided, items will not link to pages automatically.",
             "title": "Reference Feed",
             "items": {
               "type": "number"
@@ -281,7 +280,6 @@
           },
           "variant": {
             "type": "enum",
-            "description": "Visual variant of the carousel",
             "title": "Carousel Variant",
             "enum": ["alpha", "beta", "gamma"],
             "enumNames": ["Variant A", "Variant B", "Variant C"],
@@ -295,13 +293,13 @@
         "propertySchema": {
           "isPrimaryContent": {
             "type": "boolean",
-            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "description": "Determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
             "title": "Is Primary Content",
             "default": false
           },
           "itemAllowList": {
             "type": "array",
-            "description": "List of item IDs to display in the list",
+            "description": "List of item IDs to display in the component. Items will be displayed in the order specified in this list.",
             "title": "Allowed Items",
             "items": {
               "type": "number"
@@ -312,7 +310,6 @@
           },
           "variant": {
             "type": "enum",
-            "description": "Visual variant of the list",
             "title": "List Variant",
             "enum": ["alpha", "beta", "gamma"],
             "enumNames": ["Variant A", "Variant B", "Variant C"],
@@ -326,13 +323,13 @@
         "propertySchema": {
           "isPrimaryContent": {
             "type": "boolean",
-            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "description": "Determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
             "title": "Is Primary Content",
             "default": false
           },
           "itemAllowList": {
             "type": "array",
-            "description": "List of item IDs to display in the header",
+            "description": "List of item IDs to display in the component. Items will be displayed in the order specified in this list.",
             "title": "Allowed Items",
             "items": {
               "type": "number"
@@ -343,7 +340,6 @@
           },
           "variant": {
             "type": "enum",
-            "description": "Visual variant of the header",
             "title": "Header Variant",
             "enum": ["alpha", "beta", "gamma"],
             "enumNames": ["Variant A", "Variant B", "Variant C"],
@@ -357,7 +353,7 @@
         "propertySchema": {
           "isPrimaryContent": {
             "type": "boolean",
-            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "description": "Determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
             "title": "Is Primary Content",
             "default": false
           }
@@ -369,7 +365,7 @@
         "propertySchema": {
           "isPrimaryContent": {
             "type": "boolean",
-            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "description": "Determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
             "title": "Is Primary Content",
             "default": false
           }
