@@ -260,6 +260,68 @@
         }
       },
       {
+        "name": "CuratedList",
+        "subjectType": "COLLECTION",
+        "propertySchema": {
+          "isPrimaryContent": {
+            "type": "boolean",
+            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "title": "Is Primary Content",
+            "default": false
+          },
+          "itemAllowList": {
+            "type": "array",
+            "description": "List of item IDs to display in the list",
+            "title": "Allowed Items",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 1,
+            "maxItems": 10,
+            "uniqueItems": true
+          },
+          "variant": {
+            "type": "enum",
+            "description": "Visual variant of the list",
+            "title": "List Variant",
+            "enum": ["alpha", "beta", "gamma"],
+            "enumNames": ["Variant A", "Variant B", "Variant C"],
+            "default": "alpha"
+          }
+        }
+      },
+      {
+        "name": "ContentHeader",
+        "subjectType": "COLLECTION",
+        "propertySchema": {
+          "isPrimaryContent": {
+            "type": "boolean",
+            "description": "determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
+            "title": "Is Primary Content",
+            "default": false
+          },
+          "itemAllowList": {
+            "type": "array",
+            "description": "List of item IDs to display in the header",
+            "title": "Allowed Items",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 1,
+            "maxItems": 1,
+            "uniqueItems": true
+          },
+          "variant": {
+            "type": "enum",
+            "description": "Visual variant of the header",
+            "title": "Header Variant",
+            "enum": ["alpha", "beta", "gamma"],
+            "enumNames": ["Variant A", "Variant B", "Variant C"],
+            "default": "alpha"
+          }
+        }
+      },
+      {
         "name": "Detail",
         "subjectType": "SINGLE",
         "propertySchema": {
