@@ -207,6 +207,19 @@
     ],
     "componentTypes": [
       {
+        "name": "Redirect",
+        "subjectType": "COLLECTION",
+        "propertySchema": {
+          "redirectFor": {
+            "type": "enum",
+            "title": "Redirect For",
+            "description": "Specifies the type of user: authenticated or unauthenticated. Always redirects to the homepage.",
+            "enum": ["authenticated", "unauthenticated"],
+            "enumNames": ["Authenticated Users", "Unauthenticated Users"]
+          }
+        }
+      },
+      {
         "name": "TeaserGrid",
         "subjectType": "COLLECTION",
         "propertySchema": {
