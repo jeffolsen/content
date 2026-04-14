@@ -214,8 +214,13 @@
             "type": "enum",
             "title": "Redirect For",
             "description": "Specifies the type of user: authenticated or unauthenticated. Always redirects to the homepage.",
-            "enum": ["authenticated", "unauthenticated"],
-            "enumNames": ["Authenticated Users", "Unauthenticated Users"]
+            "enum": ["everyone", "authenticated", "unauthenticated"],
+            "enumNames": [
+              "Everyone",
+              "Authenticated Users",
+              "Unauthenticated Users"
+            ],
+            "default": "everyone"
           }
         }
       },
