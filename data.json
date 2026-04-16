@@ -302,6 +302,14 @@
             "enum": ["alpha", "beta", "gamma"],
             "enumNames": ["Variant A", "Variant B", "Variant C"],
             "default": "alpha"
+          },
+          "location": {
+            "type": "enum",
+            "title": "Carousel Location",
+            "description": "Specifies where the carousel should be displayed on the page. This can be used to determine the layout and styling of the carousel based on its location.",
+            "enum": ["header", "body"],
+            "enumNames": ["Header", "Body"],
+            "default": "body"
           }
         }
       },
