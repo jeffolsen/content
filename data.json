@@ -340,6 +340,17 @@
             "enum": ["alpha", "beta", "gamma"],
             "enumNames": ["Variant A", "Variant B", "Variant C"],
             "default": "alpha"
+          },
+          "referenceFeed": {
+            "type": "array",
+            "description": "Optional Single SubjectType feed ID. Provides the feed's dynamic path to construct page links when combined with items ids. If not provided, items will not link to pages automatically.",
+            "title": "Reference Feed",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 0,
+            "maxItems": 1,
+            "uniqueItems": true
           }
         }
       },
@@ -370,6 +381,17 @@
             "enum": ["alpha", "beta", "gamma"],
             "enumNames": ["Variant A", "Variant B", "Variant C"],
             "default": "alpha"
+          },
+          "referenceFeed": {
+            "type": "array",
+            "description": "Optional Single SubjectType feed ID. Provides the feed's dynamic path to construct page links when combined with items ids. If not provided, items will not link to pages automatically.",
+            "title": "Reference Feed",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 0,
+            "maxItems": 1,
+            "uniqueItems": true
           }
         }
       },
@@ -382,6 +404,13 @@
             "description": "Determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
             "title": "Is Primary Content",
             "default": false
+          },
+          "variant": {
+            "type": "enum",
+            "title": "Detail Variant",
+            "enum": ["alpha", "beta", "gamma"],
+            "enumNames": ["Variant A", "Variant B", "Variant C"],
+            "default": "alpha"
           }
         }
       },
@@ -394,6 +423,24 @@
             "description": "Determines if this block contains the H1 of the page, and should be prioritized in SEO and accessibility considerations",
             "title": "Is Primary Content",
             "default": false
+          },
+          "variant": {
+            "type": "enum",
+            "title": "Header Variant",
+            "enum": ["alpha", "beta", "gamma"],
+            "enumNames": ["Variant A", "Variant B", "Variant C"],
+            "default": "alpha"
+          },
+          "referenceFeed": {
+            "type": "array",
+            "description": "Optional Single SubjectType feed ID. Provides the feed's dynamic path to construct page links when combined with items ids. If not provided, items will not link to pages automatically.",
+            "title": "Reference Feed",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 0,
+            "maxItems": 1,
+            "uniqueItems": true
           }
         }
       }
