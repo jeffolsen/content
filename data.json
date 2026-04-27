@@ -2,7 +2,8 @@
   "deletes": {
     "images": [],
     "tags": [],
-    "componentTypes": ["Grid"]
+    "componentTypes": [],
+    "items": []
   },
   "upserts": {
     "tags": [

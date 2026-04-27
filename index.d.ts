@@ -34,6 +34,7 @@ interface DeletableContentData {
   images: string[]; // URLs of images to delete
   tags: string[]; // Names of tags to delete
   componentTypes: string[]; // Names of component types to delete
+  items: string[]; // Slugs of items to delete
 }
 
 interface ContentData {
