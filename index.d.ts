@@ -16,6 +16,7 @@ interface ContentComponentType {
 
 interface ContentItem {
   name: string;
+  slug: string;
   description?: string;
   isPrivate?: boolean;
   tags: string[];

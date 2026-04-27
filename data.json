@@ -448,6 +448,7 @@
     "items": [
       {
         "name": "Lorem ipsum dolor sit amet",
+        "slug": "lorem-1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": ["FOO", "BAR"],
         "images": [
@@ -458,6 +459,7 @@
       },
       {
         "name": "Consectetur adipiscing elit",
+        "slug": "lorem-2",
         "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "tags": ["FOO", "BAZ"],
         "images": [
@@ -468,6 +470,7 @@
       },
       {
         "name": "Sed do eiusmod tempor",
+        "slug": "lorem-3",
         "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "tags": ["FOO", "BAR"],
         "images": [
@@ -478,6 +481,7 @@
       },
       {
         "name": "Incididunt ut labore et dolore",
+        "slug": "lorem-4",
         "description": "Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags": ["FOO", "BAZ"],
         "images": [
@@ -488,6 +492,7 @@
       },
       {
         "name": "Ut enim ad minim veniam",
+        "slug": "lorem-5",
         "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags": ["FOO", "BAZ"],
         "images": [
@@ -498,6 +503,7 @@
       },
       {
         "name": "Quis nostrud exercitation ullamco",
+        "slug": "lorem-6",
         "description": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags": ["FOO", "BAR"],
         "images": [
@@ -508,6 +514,7 @@
       },
       {
         "name": "Laboris nisi ut aliquip ex ea commodo consequat",
+        "slug": "lorem-7",
         "description": "Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags": ["FOO", "BAR"],
         "images": [
@@ -518,6 +525,7 @@
       },
       {
         "name": "Duis aute irure dolor in reprehenderit",
+        "slug": "lorem-8",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags": ["FOO", "BAZ"],
         "images": [
@@ -528,6 +536,7 @@
       },
       {
         "name": "Excepteur sint occaecat cupidatat non proident",
+        "slug": "lorem-9",
         "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags": ["FOO", "BAZ"],
         "images": [
@@ -538,6 +547,7 @@
       },
       {
         "name": "Sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "slug": "lorem-10",
         "description": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags": ["FOO", "BAR"],
         "images": [
