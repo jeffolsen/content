@@ -277,10 +277,10 @@
           },
           "itemAllowList": {
             "type": "array",
-            "description": "List of item IDs to display in the component. Items will be displayed in the order specified in this list.",
+            "description": "List of item slugs to display in the component. Items will be displayed in the order specified in this list.",
             "title": "Allowed Items",
             "items": {
-              "type": "number"
+              "type": "string"
             },
             "minItems": 1,
             "maxItems": 5,
@@ -326,10 +326,10 @@
           },
           "itemAllowList": {
             "type": "array",
-            "description": "List of item IDs to display in the component. Items will be displayed in the order specified in this list.",
+            "description": "List of item slugs to display in the component. Items will be displayed in the order specified in this list.",
             "title": "Allowed Items",
             "items": {
-              "type": "number"
+              "type": "string"
             },
             "minItems": 1,
             "maxItems": 10,
@@ -367,10 +367,10 @@
           },
           "itemAllowList": {
             "type": "array",
-            "description": "List of item IDs to display in the component. Items will be displayed in the order specified in this list.",
+            "description": "List of item slugs to display in the component. Items will be displayed in the order specified in this list.",
             "title": "Allowed Items",
             "items": {
-              "type": "number"
+              "type": "string"
             },
             "minItems": 1,
             "maxItems": 1,
