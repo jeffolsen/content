@@ -8,6 +8,12 @@ interface ContentTag {
   name: string;
 }
 
+interface ContentDateRange {
+  description?: string;
+  startAt: string;
+  endAt: string;
+}
+
 interface ContentComponentType {
   name: string;
   subjectType: "SINGLE" | "COLLECTION";
@@ -21,6 +27,7 @@ interface ContentItem {
   isPrivate?: boolean;
   tags: string[];
   images: string[];
+  dateRanges?: ContentDateRange[];
 }
 
 interface UpsertableContentData {

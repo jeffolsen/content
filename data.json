@@ -556,6 +556,65 @@
           "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/logoipsum-339.png",
           "https://raw.githubusercontent.com/jeffolsen/content/refs/heads/main/images/5688709-merry-christmas-2425121_1920.jpg"
         ]
+      },
+      {
+        "isPrivate": true,
+        "name": "Senior Developer",
+        "slug": "placewise-senior-dev",
+        "description": "- Collaborated on a new CMS frontend for the Rails API, migrating from a legacy Coldfusion CMS.\n- Helped migrate much of the company's frontend components from Coldfusion/JQuery/SCSS to React/Nextjs/Tailwind in preparation for expansion into international markets.",
+        "tags": ["PAST"],
+        "images": [],
+        "dateRanges": [
+          {
+            "description": "(Typescript/React/Nextjs, Tailwindcss/Twin)",
+            "startAt": "2020-01-01",
+            "endAt": "2025-01-24"
+          }
+        ]
+      },
+      {
+        "isPrivate": true,
+        "name": "Junior Backend Developer",
+        "slug": "placewise-junior-backend-dev",
+        "description": "- Developed Rails JSON API endpoints supporting user account login.Some supported features: flexible requirements, content favoriting, magic links, daily emails.\n- Modeled loyalty program tracking; used for event check-ins, coupon distribution, or interactive games. End users could log into the website through their phones and present a QR code to participate in onsite activities.\n- Contributed to a GraphQL facade to serve content to Gatsby and the Nextjs websites.\n- Used Rspec and Factorybot for testing.",
+        "tags": ["PAST"],
+        "images": [],
+        "dateRanges": [
+          {
+            "description": "(Ruby/Rails)",
+            "startAt": "2020-01-01",
+            "endAt": "2018-01-01"
+          }
+        ]
+      },
+      {
+        "isPrivate": true,
+        "name": "Junior Frontend Developer",
+        "slug": "placewise-junior-frontend-dev",
+        "description": "- Collaborated with a team of graphic designers, translating Photoshop and Figma comps into reusable frontend components, shared across 500+ shopping center websites.\n- Frontend components were composed of Coldfusion templates, with SCSS and JQuery providing artistic flourish and user experience.\n- Responsibilities included:\n    - Develop layouts with mixed content from retail brands, products, promotions, events, movies, press releases, job openings\n    - 3rd party integrations(Google Ads, GTM, Facebook and other social networks, geojson maps, mailchimp, movie theater APIs, etc).\n    - Account login and personalization experience.\n    - Cross-browser compatibility, SEO optimization and ARIA compliance.",
+        "tags": ["PAST"],
+        "images": [],
+        "dateRanges": [
+          {
+            "description": "(Grunt, Javascript/JQuery, SCSS, Coldfusion)",
+            "startAt": "2014-07-01",
+            "endAt": "2018-01-01"
+          }
+        ]
+      },
+      {
+        "isPrivate": true,
+        "name": "Metropolitan State University of Denver",
+        "slug": "msud-education",
+        "description": "BFA Digital Art - Double Minor in Computer Science and Mathematics",
+        "tags": ["PAST"],
+        "images": [],
+        "dateRanges": [
+          {
+            "startAt": "2007-08-01",
+            "endAt": "2013-05-31"
+          }
+        ]
       }
     ]
   }
