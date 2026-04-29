@@ -591,7 +591,7 @@
         "isPrivate": true,
         "name": "Placewise, Senior Developer",
         "slug": "placewise-senior-dev",
-        "description": "-- Collaborated on a new CMS frontend for the Rails API, migrating from a legacy Coldfusion CMS.\n\n-- Helped migrate much of the company's frontend components from Coldfusion/JQuery/SCSS to React/Nextjs/Tailwind in preparation for expansion into international markets.",
+        "description": "-- Collaborated on a new CMS frontend for the Rails API, migrating from a legacy Coldfusion CMS.\n-- Helped migrate much of the company's frontend components from Coldfusion/JQuery/SCSS to React/Nextjs/Tailwind in preparation for expansion into international markets.",
         "tags": ["PAST"],
         "images": [],
         "dateRanges": [
@@ -606,7 +606,7 @@
         "isPrivate": true,
         "name": "Placewise, Junior Backend Developer",
         "slug": "placewise-junior-backend-dev",
-        "description": "-- Developed Rails JSON API endpoints supporting user account login.Some supported features: flexible requirements, content favoriting, magic links, daily emails.\n\n-- Modeled loyalty program tracking; used for event check-ins, coupon distribution, or interactive games. End users could log into the website through their phones and present a QR code to participate in onsite activities.\n\n-- Contributed to a GraphQL facade to serve content to Gatsby and the Nextjs websites.\n\n-- Used Rspec and Factorybot for testing.",
+        "description": "-- Developed Rails JSON API endpoints supporting user account login.Some supported features: flexible requirements, content favoriting, magic links, daily emails.\n-- Modeled loyalty program tracking; used for event check-ins, coupon distribution, or interactive games. End users could log into the website through their phones and present a QR code to participate in onsite activities.\n-- Contributed to a GraphQL facade to serve content to Gatsby and the Nextjs websites.\n-- Used Rspec and Factorybot for testing.",
         "tags": ["PAST"],
         "images": [],
         "dateRanges": [
@@ -621,7 +621,7 @@
         "isPrivate": true,
         "name": "Placewise, Junior Frontend Developer",
         "slug": "placewise-junior-frontend-dev",
-        "description": "-- Collaborated with a team of graphic designers, translating Photoshop and Figma comps into reusable frontend components, shared across 500+ shopping center websites.\n\n-- Frontend components were composed of Coldfusion templates, with SCSS and JQuery providing artistic flourish and user experience.\n\n-- Responsibilities included:\n\n    -- Develop layouts with mixed content from retail brands, products, promotions, events, movies, press releases, job openings\n\n    -- 3rd party integrations(Google Ads, GTM, Facebook and other social networks, geojson maps, mailchimp, movie theater APIs, etc).\n\n    -- Account login and personalization experience.\n\n    -- Cross-browser compatibility, SEO optimization and ARIA compliance.",
+        "description": "-- Collaborated with a team of graphic designers, translating Photoshop and Figma comps into reusable frontend components, shared across 500+ shopping center websites.\n-- Frontend components were composed of Coldfusion templates, with SCSS and JQuery providing artistic flourish and user experience.\n-- Responsibilities included:\n    -- Develop layouts with mixed content from retail brands, products, promotions, events, movies, press releases, job openings\n    -- 3rd party integrations(Google Ads, GTM, Facebook and other social networks, geojson maps, mailchimp, movie theater APIs, etc).\n    -- Account login and personalization experience.\n    -- Cross-browser compatibility, SEO optimization and ARIA compliance.",
         "tags": ["PAST"],
         "images": [],
         "dateRanges": [
@@ -636,7 +636,7 @@
         "isPrivate": true,
         "name": "Metropolitan State University of Denver",
         "slug": "msud-education",
-        "description": "-- Played with Final Cut Pro, Adobe After Effects, Photoshop, Illustrator, Dreamweaver, ActionScript 3, Blender, Unity 3D, and more.\n\n-- Double Minored in Computer Science and Mathematics",
+        "description": "-- Played with Final Cut Pro, Adobe After Effects, Photoshop, Illustrator, Dreamweaver, ActionScript 3, Blender, Unity 3D, and more.\n-- Double Minored in Computer Science and Mathematics",
         "tags": ["PAST"],
         "images": [],
         "dateRanges": [
