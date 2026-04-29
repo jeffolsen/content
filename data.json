@@ -42,6 +42,36 @@
       },
       {
         "name": "BAZ"
+      },
+      {
+        "name": "JAVASCRIPT"
+      },
+      {
+        "name": "REACT"
+      },
+      {
+        "name": "NODE"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "NEXTJS"
+      },
+      {
+        "name": "TAILWIND"
+      },
+      {
+        "name": "UX"
+      },
+      {
+        "name": "COLLABORATION"
+      },
+      {
+        "name": "COLDFUSION"
+      },
+      {
+        "name": "RAILS"
       }
     ],
     "images": [
